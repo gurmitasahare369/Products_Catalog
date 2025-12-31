@@ -4,5 +4,10 @@
   "scripts": {
     "build": "npm install --prefix frontend --include=dev && npm run build --prefix frontend",
     "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.0"
   }
 }
